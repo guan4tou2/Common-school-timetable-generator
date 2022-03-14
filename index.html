@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="/eel.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="  https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
+</head>
+<body>
+    <div id="filedialog">
+        <input id="path" placeholder="輸入資料夾路徑" value="D:\program\eel\mdtest"></input>
+        <button type="button" onclick="getPathToFile()" id="btn">掃描檔案並產生課表</button>
+    </div>
+    <div id="color">
+        <input id="colors" placeholder="輸入六組HEX色碼，分別為大一,大二,大三,大四,碩一,碩二" value="#1976D2,#BBDEFB,#00BCD4,#212121,#757575,#2196F3"></input>
+    </div>
+    <div id="filelist"></div>
+    <div id="markdown"></div>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>

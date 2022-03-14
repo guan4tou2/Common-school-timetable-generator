@@ -1,0 +1,97 @@
+body{
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.message{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    padding-left: 7px;
+    padding-top: 3px;
+    border-left-width: 0px;
+}
+
+#filedialog{
+    position: absolute;
+    width: 533px;
+    height: 40px;
+    left: 35px;
+    top: 35px;
+}
+
+#color {
+    position: absolute;
+    width: 533px;
+    height: 40px;
+    left: 35px;
+    top: 81px;
+    /* background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px; */
+}
+#colors {
+    position: absolute;
+    width: 533px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+    
+}
+input{
+    font-size:20px
+}
+#filelist{
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+    position: absolute;
+    width: 532px;
+    height: 443px;
+    left: 35px;
+    top: 128px;
+    overflow: auto;
+}
+
+#markdown{
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+    position: absolute;
+    width: 380px;
+    height: 543px;
+    left: 603px;
+    top: 35px;
+    
+}
+#btn{
+    position: relative;
+    width: 174px;
+    height: 40px;
+    left: 359px;
+    top: -40px;
+    
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-size:17px
+}
+#path{
+    position: relative; 
+    width: 358px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
